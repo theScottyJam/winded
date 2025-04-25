@@ -1,0 +1,36 @@
+{
+  "name": "winded",
+  "version": "0.0.0",
+  "description": "Just CSS in HTML",
+  "type": "module",
+  "main": "./src/main.js",
+  "bin": {
+    "winded": "./src/main.js"
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "dependencies": {
+    "glob": "^11.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node --test",
+    "test:only": "node --test --test-only",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "CSS",
+    "HTML",
+    "tailwind"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theScottyJam/winded.git"
+  },
+  "author": "Scotty Jamison",
+  "license": "MIT",
+  "engines" : {
+    "node" : ">=22.15.0"
+  }
+}
